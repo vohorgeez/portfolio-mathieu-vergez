@@ -2,31 +2,48 @@
 <html lang="fr">
     <head>
         <meta charset="utf-8">
-        <title>Portfolio</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Portfolio - Mathieu Vergez</title>
+        <meta name="description" content="Portfolio développeur - Mathieu Vergez : projets, compétences, contact">
         <link rel="stylesheet" href="styles/main.css">
+        <link rel="icon" href="assets/saturn.svg" type="image/svg+xml">
     </head>
     <body>
-        <header>
-            <div>logo</div>
-            <h1>Portfolio - Mathieu Vergez</h1>
-            <nav>
+        <a class="skip-link" href="#contenu">Aller au contenu</a>
+        <header class="site-header">
+            <div class="brand">
+                <a href="#" aria-label="Accueil">MV</a>
+            </div>
+            <h1 class="site-title">Portfolio - Mathieu Vergez</h1>
+            <nav class="site-nav" aria-label="Navigation principale">
                 <ul>
                     <li><a href="#projets">Projets</a></li>
                     <li><a href="#apropos">A propos</a></li>
                     <li><a href="#contact">Contact</a></li>
-                    <li><a href="cv">CV</a></li>
+                    <li><a href="assets/CV - short.pdf download" target="_blank" rel="noopener">CV</a></li>
                 </ul>
             </nav>
         </header>
-        <main>
-            <section id="projets"></section>
-            <section id="apropos"></section>
-            <section id="contact"></section>
-            <footer>
-                <p>© Mathieu Vergez 2025</p><br>
-                <a href="https://github.com/vohorgeez">GitHub</a><br>
-                <a href="https://www.linkedin.com/in/mathieu-vergez-479521344/">LinkedIn</a>
-            </footer>
+        <main id="contenu">
+            <section id="projets" aria-labelledby="titre-projets">
+                <h2 id="titre-projets">Projets</h2>
+                <!--cartes projets ici-->
+            </section>
+            <section id="apropos" aria-labelledby="titre-apropos">
+                <h2 id="titre-apropos">A propos</h2>
+                <!--bio courte-->
+            </section>
+            <section id="contact" aria-labelledby="titre-contact">
+                <h2 id="titre-contact">Contact</h2>
+                <!--mailto ou form-->
+            </section>
         </main>
+        <footer class="site-footer">
+            <p>© Mathieu Vergez 2025</p><br>
+            <p>
+                <a href="https://github.com/vohorgeez" target="_blank" rel="noopener">GitHub</a><br>
+                <a href="https://www.linkedin.com/in/mathieu-vergez-479521344/" target="_blank" rel="noopener">LinkedIn</a>
+            </p>
+        </footer>
     </body>
 </html>
